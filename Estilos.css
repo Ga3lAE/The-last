@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(#F999B7 , #F9C5D5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+.notas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEE3EC;
+    color: #781D42;
+    font-family:cursive;
+    height: 5rem; width: 10rem;
+    margin: 2rem;
+    border: #F2789F solid 2px; border-radius: 200px;
+}
+.notas:hover{
+    cursor: pointer;
+    box-shadow: #D47AE8 3px 3px 3px;
+}
+.active{
+    box-shadow: #D47AE8 3px 3px 3px;
+
+}
